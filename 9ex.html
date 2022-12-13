@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo">my name is tanu</h1>
+    <h1 class="demo1">a</h1>
+    <h1 class="demo2">b</h1>
+    <p id="demo4">welcome to java script</p>
+    <div onmouseover="over()"onmouseout="out()">
+    this is inside the division</div>
+</body>
+<script>
+    console.log(document.getElementById("demo"))
+    console.log(document.getElementsByClassName("demo1"))
+    console.log(document.getElementsByTagName("h1"))
+    console.log(document.querySelector("h1"))
+    console.log(document.querySelectorAll("h1"))
+    console.log(document.getElementById("demo4").innerHTML);
+    console.log(document.getElementById("demo4").textcontent);
+    function over()
+    {
+        document.write("mouseover")
+    }
+    function out()
+    {
+       document.write("mouseout")
+    }
+ </script>
+
+</html>
